@@ -7,7 +7,7 @@ const http = require("http");
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://test-websocket-acrf.onrender.com/",
   },
 });
 app.use(cors());
